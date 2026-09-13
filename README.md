@@ -1,4 +1,5 @@
-This is form for finding dinosaur pet from list(there is no database yet).
+This is form/system for finding dinosaur pet for adopting/buying dinosaurs from list of organization(there is no database yet).
+
 
 All names for classes/methods/variables are	meaningful, intention-revealing.
 <img width="532" height="268" alt="image" src="https://github.com/user-attachments/assets/0a42bcf2-5e23-4758-899a-803c452c0a4b" />
