@@ -78,7 +78,20 @@ public class ChooseDino {
         }
 
         public ChooseDino build(){
+            if (age < 0) {
+                throw new IllegalStateException("Age must be 0 or greater.");
+            }
             return new ChooseDino(this);
         }
+    }
+    public String toString() {
+        return "Your chosen one:" +
+                "Species - " + species +  "\n" +
+                "\t\t\t\tAge - " + age +  "\n" +
+                "\t\t\t\tColor - " + color +  "\n" +
+                "\t\t\t\tHabitat - " + habitat +  "\n" +
+                "\t\t\t\tTemperament - " + temperament +  "\n" +
+                "\t\t\t\tTrained - " + trained +  "\n" +
+                "\t\t\t\tGender - " + gender + "\n";
     }
 }

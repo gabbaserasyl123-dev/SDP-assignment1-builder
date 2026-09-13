@@ -9,14 +9,16 @@ public class Main {
                 .setTemperament("calm")
                 .setTrained("yes")
                 .build();
-        System.out.println("Your chosen one: " +  choice.getSpecies());
+        System.out.println(choice);
 
         ChooseDino.Builder builder =  new ChooseDino.Builder();
         ChooseDinoDirector director = new ChooseDinoDirector();
         ChooseDino egg = director.egg(builder);
         ChooseDino oldAndCalm = director.oldCalm(builder);
-        System.out.println("Your chosen one: " +  egg.getSpecies());
-        System.out.println("Your chosen one: " +  oldAndCalm.getSpecies());
+        System.out.println(egg);
+        System.out.println(oldAndCalm);
 
     }
+
+
 }
